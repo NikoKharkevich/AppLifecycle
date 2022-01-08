@@ -22,31 +22,31 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneDidDisconnect(_ scene: UIScene) {
 
-        print(#function)
+        print("sceneDidDisconnect")
         
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
    
-        print(#function)
+        print("sceneDidBecomeActive")
         
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
       
-        print(#function)
+        print("sceneWillResignActive")
         
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {
        
-        print(#function)
+        print("sceneWillEnterForeground")
         
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
         
-        print(#function)
+        print("sceneDidEnterBackground")
         
     }
 
