@@ -1,10 +1,4 @@
-//
-//  ViewController2.swift
-//  ViewControllerLifecycle
-//
-//  Created by Angela Yu on 28/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
+
 
 import UIKit
 
@@ -21,27 +15,27 @@ class ViewController2: UIViewController {
         
         label.text = "hello"
         
-        print("VC2 viewDidLoad Called")
+        print("VC2️⃣ viewDidLoad ✅")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("VC2 viewWillAppear Called")
+        print("VC2 viewWillAppear")
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("VC2 viewDidAppear Called")
+        print("VC2 viewDidAppear")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("VC2 viewWillDisappear Called")
+        print("VC2 viewWillDisappear")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("VC2 viewDidDisappear Called")
+        print("VC2 viewDidDisappear ❌")
     }
 
 }
